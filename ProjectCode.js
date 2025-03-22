@@ -21,8 +21,7 @@ class Contact{
         this.phoneNumber = phoneNumber
     }
 }
-
-/////UC2
+//UC2
 var addressBook = new Array();
 
 function contactDetails(firstName,lastName,address,state,city,zipCode,email,phoneNumber){
@@ -70,3 +69,7 @@ function contactDetails(firstName,lastName,address,state,city,zipCode,email,phon
         }
     }   
 }
+
+//UC3 
+contactDetails('Kushagra', 'Sharma', 'Home', 'Uttar Pradesh', 'Agra', "282005", 'kushagra@gmail.com', "3342532525");
+console.log(addressBook);
